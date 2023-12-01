@@ -5,8 +5,10 @@ package Interfaz;
 public class Comienzo {
     
     public static void main(String[] args) {
-        Iniciar inicio = new Iniciar();
-        inicio.setBounds(0,0,0,0);
+        MenuInicial inicio = new MenuInicial();
+        inicio.setBounds(0,0,400,300);
+        inicio.setVisible(true);
+        inicio.setLocationRelativeTo(null);
     }
     
 }

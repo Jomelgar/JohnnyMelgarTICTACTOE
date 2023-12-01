@@ -8,12 +8,12 @@ package Interfaz;
  *
  * @author jomel
  */
-public class Iniciar extends javax.swing.JFrame {
+public class MenuInicial extends javax.swing.JFrame {
 
     /**
      * Creates new form Iniciar
      */
-    public Iniciar() {
+    public MenuInicial() {
         initComponents();
     }
 
@@ -32,6 +32,7 @@ public class Iniciar extends javax.swing.JFrame {
         jButton3 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         jLabel1.setFont(new java.awt.Font("Showcard Gothic", 2, 36)); // NOI18N
         jLabel1.setText("Menu de Inicio");
