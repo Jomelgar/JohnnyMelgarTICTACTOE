@@ -96,6 +96,7 @@ public class Menu extends javax.swing.JFrame {
         inicio.setBounds(0,0,400,350);
         inicio.setVisible(true);
         inicio.setLocationRelativeTo(null);
+        this.dispose();
     }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
